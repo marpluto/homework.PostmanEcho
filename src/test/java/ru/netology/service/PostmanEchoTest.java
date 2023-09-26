@@ -9,7 +9,7 @@ public class PostmanEchoTest {
     void shouldReturnData (){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Test")
+                .body("Rest")
                 .when()
                 .post("/post")
                 .then()
